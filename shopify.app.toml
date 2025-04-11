@@ -1,0 +1,23 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "5f46da3c28881665887b6e8af31a0f40"
+name = "pos-example-staff-attribution"
+handle = "pos-example-staff-attribution"
+application_url = "https://shopify.dev/apps/default-app-home"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2025-04"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+
+[pos]
+embedded = false
