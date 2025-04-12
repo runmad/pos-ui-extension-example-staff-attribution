@@ -27,6 +27,13 @@ When a customer is ready to checkout, the staff member will be prompted to scan 
 - The Tile logic has a call to action show destructive when one or more line items are missing attribution.
 - Badge is used to indicate number of attributed line items.
 
+## Screenshots
+
+![Staff Attribution Screen 1](./screenshot_1.png)
+
+![Staff Attribution Screen 2](./screenshot_2.png)
+
+![Staff Attribution Screen 3](./screenshot_3.png)
 ## Development
 
 This app is built using Shopify's App and Extension frameworks. Refer to [Shopify's developer documentation](https://shopify.dev/docs/apps/build/pos/embed-app-in-pos) for more information on POS UI Extensions.
